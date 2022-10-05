@@ -1,0 +1,31 @@
+<mat-accordion class="example-headers-align" id="newProduct">
+    <span class="header-span-lo"><a routerLink="/home">Log out</a></span><br>
+    <mat-expansion-panel id="ex-panel">
+      <mat-expansion-panel-header>
+  
+        Add Product
+  
+      </mat-expansion-panel-header>
+      <form [formGroup]="product">
+      <div class="productform">
+        <mat-form-field class="example-full-width" appearance="fill"  id="inputForm" >
+          <input matInput placeholder="id" formControlName="id">
+          
+        </mat-form-field><br>
+        <mat-form-field class="example-full-width" appearance="fill"  id="inputForm" >
+          <input  matInput placeholder="productname" formControlName="productname">
+        </mat-form-field><br>
+        <mat-form-field class="example-full-width" appearance="fill"  id="inputForm" >
+            <input matInput placeholder="qty" formControlName="qty">           
+          </mat-form-field><br>
+
+  
+        <button mat-raised-button (click)="addProduct()">Add</button>
+      </div>
+    </form>
+    </mat-expansion-panel>
+  </mat-accordion>
+  <h1>Products</h1>
+  
+  <app-viewproduct></app-viewproduct>
+  

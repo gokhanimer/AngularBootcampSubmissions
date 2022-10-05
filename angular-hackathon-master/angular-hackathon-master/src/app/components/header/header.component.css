@@ -1,0 +1,19 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-toolbar {
+  background-color: rgb(152, 242, 104);
+  color: black;
+font-family: "Bebas";
+font-size: 33px;
+  }
+  .header-span{
+  font-size: 25px;
+  margin-left: 1em;
+  }
+  .header-span-lo{
+    font-size: 25px;
+    margin-left: 1em;
+    float: right;
+
+    }

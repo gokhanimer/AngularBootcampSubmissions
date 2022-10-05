@@ -1,0 +1,13 @@
+<div class='product-list'>
+    <mat-card class="product-card" *ngFor='let product of products'>
+    <mat-card-header>
+      
+      <mat-card-title>ID:{{product.id}}</mat-card-title>
+     
+    </mat-card-header>
+    <mat-card-content>
+        <p>Product: {{product.productname}}</p>
+        <p>QTY: {{product.qty}}</p>
+    </mat-card-content>
+  </mat-card>
+  </div>

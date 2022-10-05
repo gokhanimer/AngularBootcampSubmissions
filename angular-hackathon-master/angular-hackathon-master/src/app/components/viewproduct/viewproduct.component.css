@@ -1,0 +1,11 @@
+.product-card{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(98, 42, 42);
+    border-radius: 10px;
+    margin: 2em;
+    width: 250px;
+    height: max-content;
+    color: rgb(46, 219, 34);
+  }
